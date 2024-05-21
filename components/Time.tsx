@@ -1,0 +1,1 @@
+export const Time = () => (<div>{new Date().getSeconds()}s.</div>)
