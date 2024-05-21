@@ -14,7 +14,7 @@ export default async function Home() {
       </div>
 
       <div>
-        <ClientButton>
+        <ClientButton seconds={seconds}>
           <div className='text-blue-500 border-2 border-blue-500 m-2 p-2 w-max'>
             Server Side children: {headersData.get('host')}
             <Time />
